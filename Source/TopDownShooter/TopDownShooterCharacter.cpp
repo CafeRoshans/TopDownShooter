@@ -1,5 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 #include "TopDownShooterCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Camera/CameraComponent.h"
@@ -59,7 +57,7 @@ ATopDownShooterCharacter::ATopDownShooterCharacter()
 
 void ATopDownShooterCharacter::Tick(float DeltaSeconds)
 {
-    Super::Tick(DeltaSeconds);
+	Super::Tick(DeltaSeconds);
 
 	if (CursorToWorld != nullptr)
 	{
